@@ -1,0 +1,9 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Simple AI Chatbot",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "deploy": "npx wrangler pages deploy ."
+  }
+}
