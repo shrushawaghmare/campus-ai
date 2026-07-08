@@ -1,0 +1,126 @@
+[
+  {
+    "question": "What is the difference between HTML, CSS, and React?",
+    "answer": "HTML defines the structure of web pages, CSS controls their visual appearance, and React is a JavaScript library for building interactive user interfaces by composing components that render HTML and manage state."
+  },
+  {
+    "question": "How do I create a functional component in React?",
+    "answer": "Create a JavaScript function that returns JSX. Example: function MyComponent(props) { return (<div>Hello</div>); } export default MyComponent; Use hooks like useState or useEffect for state and side effects."
+  },
+  {
+    "question": "How do I center a div both horizontally and vertically with CSS?",
+    "answer": "Use flexbox on the parent: display: flex; align-items: center; justify-content: center;. Alternatively use CSS Grid or absolute positioning with transform for centering."
+  },
+  {
+    "question": "What is semantic HTML and why use it?",
+    "answer": "Semantic HTML uses meaningful elements like header, main, article, nav, and footer to describe content structure. It improves accessibility, SEO, and makes the markup easier to understand and maintain."
+  },
+  {
+    "question": "hello",
+    "answer": "Hi there! I'm ChatBoot. What would you like to talk about today?"
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm doing great, thanks! I'm ready to help with your questions."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can answer simple questions, help with ideas, and chat with you."
+  },
+  {
+    "question": "tell me about yourself",
+    "answer": "I'm a small chat assistant built to demo a web-based AI-style chatbot."
+  },
+  {
+    "question": "help",
+    "answer": "Sure! Ask me anything, and I'll do my best to help you out."
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome! If there's anything else, just type it in."
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer": "A closure is a function that remembers the variables from the scope where it was created, even after that outer function has finished executing. Closures enable data privacy and are common in callbacks and factory functions."
+  },
+  {
+    "question": "What's the difference between var, let, and const in JavaScript?",
+    "answer": "var is function-scoped and hoisted; let and const are block-scoped. const creates a read-only binding (but object contents can still change). Prefer let/const for predictable scoping."
+  },
+  {
+    "question": "How do I fetch JSON from an API in JavaScript?",
+    "answer": "Use fetch and parse JSON: fetch('/api').then(r => r.json()).then(data => { /* use data */ }).catch(err => console.error(err)); Or use async/await: const res = await fetch('/api'); const data = await res.json();"
+  },
+  {
+    "question": "How does async/await work in JavaScript?",
+    "answer": "async marks a function that returns a Promise. await pauses execution inside an async function until the awaited Promise resolves, allowing asynchronous code to be written in a synchronous style. Handle errors with try/catch."
+  },
+  {
+    "question": "How do I define a class in Python?",
+    "answer": "Use the class keyword: class MyClass:\n    def __init__(self, value):\n        self.value = value\n    def method(self):\n        return self.value. Instantiate with obj = MyClass(123)."
+  },
+  {
+    "question": "What is JSX in React?",
+    "answer": "JSX is a syntax extension that looks like HTML but is used in JavaScript to describe UI structure. React components return JSX, which is compiled to React.createElement calls."
+  },
+  {
+    "question": "What's the difference between state and props in React?",
+    "answer": "Props are inputs passed from parent to child components and are read-only. State is managed inside a component (or via hooks) and can change over time, causing re-renders."
+  },
+  {
+    "question": "How do I lift state up in React?",
+    "answer": "Move the shared state to the closest common ancestor component and pass it down via props, along with setter callbacks so children can update it."
+  },
+  {
+    "question": "What is the Virtual DOM?",
+    "answer": "The Virtual DOM is an in-memory representation of the real DOM that React uses to compute efficient updates by diffing previous and next VDOM trees and applying minimal changes to the real DOM."
+  },
+  {
+    "question": "What is event bubbling and event delegation in JavaScript?",
+    "answer": "Event bubbling is when events propagate from the target element up through ancestor elements. Event delegation uses this by attaching a single listener on a parent to handle events for many child elements efficiently."
+  },
+  {
+    "question": "How can I include CSS in my HTML?",
+    "answer": "You can use inline styles on elements, an internal <style> block in the HTML head, or an external stylesheet linked via <link rel=\"stylesheet\" href=\"styles.css\">. External stylesheets are preferred for reuse and separation of concerns."
+  },
+  {
+    "question": "What is the CSS box model?",
+    "answer": "The box model describes how elements' width and height are calculated: content, padding, border, and margin. The default box-sizing is content-box; box-sizing: border-box includes padding and border in the element's total size."
+  },
+  {
+    "question": "How do I debug JavaScript errors in the browser?",
+    "answer": "Use browser DevTools: open the Console for errors, use breakpoints in the Sources panel, inspect variables, and use network tab to check requests. Console.log and debugger statements are also helpful."
+  },
+  {
+    "question": "What is the difference between Java and JavaScript?",
+    "answer": "Java is a statically typed, compiled language often used for backend applications and Android. JavaScript is a dynamically typed scripting language primarily used for web development in browsers and on the server with Node.js."
+  },
+  {
+    "question": "How do I create a simple class in Java?",
+    "answer": "Define the class with fields, a constructor, and methods. Example: public class Person { private String name; public Person(String name) { this.name = name; } public String getName() { return name; } }"
+  },
+  {
+    "question": "What is a React hook?",
+    "answer": "A React hook is a special function like useState or useEffect that lets functional components use state and lifecycle features without writing class components. Hooks must be called at the top level of a component."
+  },
+  {
+    "question": "How do I use useState in React?",
+    "answer": "Import useState from React and call it inside a component: const [count, setCount] = useState(0); Then update state with setCount(newValue), which triggers a component re-render."
+  },
+  {
+    "question": "What is the purpose of React props?",
+    "answer": "Props are how parent components pass data and callbacks to child components. They are immutable inside the child and allow reuse of components with different input values."
+  },
+  {
+    "question": "What is the basic structure of an HTML document?",
+    "answer": "A basic HTML document includes a doctype declaration, <html> root, <head> with metadata and title, and <body> with visible content. Example: <!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>Title</title></head><body>Content</body></html>."
+  },
+  {
+    "question": "What are HTML semantic elements?",
+    "answer": "Semantic HTML elements like <header>, <nav>, <main>, <article>, <section>, and <footer> describe page structure and meaning. They help accessibility, SEO, and make code easier to read."
+  },
+  {
+    "question": "How do I structure a responsive HTML layout?",
+    "answer": "Use semantic containers with CSS responsive techniques like flexbox or grid, set viewport meta tag, and apply media queries to adjust layout for different screen sizes."
+  }
+]
